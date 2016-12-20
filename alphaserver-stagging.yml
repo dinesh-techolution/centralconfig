@@ -20,7 +20,7 @@ eureka:
         registerWithEureka: true
         fetchRegistry: true
         serviceUrl:
-            defaultZone: http://admin:admin@162.220.163.230:8761/eureka/
+            defaultZone: http://admin:admin@35.160.117.81:8761/eureka/
 
 spring:
     profiles:
@@ -118,7 +118,7 @@ jhipster:
             enabled: false
             # edit spring.metrics.export.delay-millis to set report frequency
 alphaserver:
-  eurekaservice: 162.220.163.230
+  eurekaservice: 35.160.117.81
   target:
     "172-31-47-238": 35.162.88.97 
     "172-31-47-237": 35.161.61.21
