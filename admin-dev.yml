@@ -38,14 +38,10 @@ config:
 zuul:
   routes:
     league:
-      path: /leagues/**
+      path: {"/leagues/**","/seasons/**"}
       stripPrefix: false
     pick:
       path: /picks/**
-      stripPrefix: false
-    season:
-      path: /seasons/**
-      serviceId: season
       stripPrefix: false
     team:
       path: /teams/**
