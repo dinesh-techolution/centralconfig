@@ -18,7 +18,7 @@ security:
       access-token-uri: ${vcap.services.auth-token.credentials.uri:http://localhost:9999/auth/oauth/token}
       user-authorization-uri: ${vcap.services.auth-authorize.credentials.uri:http://localhost:9999/auth/oauth/authorize}
       client-id: confidential
-      client-secret: '{cipher}abcec9856a7739f15f9068430a75b046b63df2907ee3e75547aa884226e1b1ae'
+      client-secret: ss
     resource:
       jwt:
         key-value: |
