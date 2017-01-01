@@ -19,7 +19,7 @@ eureka:
         healthCheckUrlPath: ${management.context-path}/health
 ribbon:
     eureka:
-        enabled: true
+        enabled: false
 zuul:
     host:
         connect-timeout-millis: 5000
