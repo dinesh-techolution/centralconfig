@@ -12,9 +12,9 @@
 
 eureka:
     instance:
-        prefer-ip-address: true
+        prefer-ip-address: false
     client:
-        enabled: true
+        enabled: false
         healthcheck:
             enabled: true
         registerWithEureka: true
@@ -122,3 +122,4 @@ alphaserver:
   target:
     "192-168-1-3": 192.168.1.3 
     "172-31-47-238": 35.162.88.97
+    "localhost": localhost
