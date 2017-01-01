@@ -14,18 +14,17 @@ eureka:
     instance:
         prefer-ip-address: true
     client:
-        enabled: true
+        enabled: false
         healthcheck:
-            enabled: true
-        registerWithEureka: true
-        fetchRegistry: true
+            enabled: false
+        registerWithEureka: false
+        fetchRegistry: false
         serviceUrl:
             defaultZone: http://admin:admin@35.161.61.21:8761/eureka/
 
 spring:
     profiles:
         active: dev
-        include: swagger
     devtools:
         restart:
             enabled: true
@@ -33,15 +32,6 @@ spring:
             enabled: false # we use gulp + BrowserSync for livereload
     jackson:
         serialization.indent_output: true
-    mail:
-        host: localhost
-        port: 25
-        username:
-        password:
-    messages:
-        cache-seconds: 1
-    thymeleaf:
-        cache: false
 
 server:
     port: 8089
