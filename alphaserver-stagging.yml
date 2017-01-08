@@ -77,7 +77,7 @@ server:
     port: 8989
 security:
   basic:
-    enabled: false
+    enabled: true
   oauth2:
     client:
       clientId: 935407616882-7s2a4oulmv16ld8oi61cjbjutifk1k0h.apps.googleusercontent.com
