@@ -24,7 +24,7 @@ eureka:
 
 spring:
     profiles:
-        active: dev
+        active: stagging
         include: swagger
     autoconfigure:
         exclude: org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration
@@ -75,7 +75,23 @@ liquibase:
 
 server:
     port: 8989
-
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: 935407616882-7s2a4oulmv16ld8oi61cjbjutifk1k0h.apps.googleusercontent.com
+      clientSecret: qnnN8B71mS1OH4sedkhWOSUZ
+      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      clientAuthenticationScheme: form
+      scope:
+        - openid
+        - email
+        - profile
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+      preferTokenInfo: true
 # ===================================================================
 # JHipster specific properties
 # ===================================================================
