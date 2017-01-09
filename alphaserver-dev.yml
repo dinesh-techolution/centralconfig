@@ -10,17 +10,17 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-    instance:
-        prefer-ip-address: false
-    client:
-        enabled: false
-        healthcheck:
-            enabled: true
-        registerWithEureka: false
-        fetchRegistry: false
-        serviceUrl:
-            defaultZone: http://admin:admin@35.161.61.21:8761/eureka/
+#eureka:
+#    instance:
+#        prefer-ip-address: false
+#    client:
+#        enabled: false
+#        healthcheck:
+#            enabled: true
+#        registerWithEureka: false
+#        fetchRegistry: false
+#        serviceUrl:
+#            defaultZone: http://admin:admin@35.161.61.21:8761/eureka/
 
 spring:
     profiles:
@@ -74,7 +74,7 @@ liquibase:
     contexts: dev
 
 server:
-    port: 8080
+    port: 8989
 
 # ===================================================================
 # JHipster specific properties
