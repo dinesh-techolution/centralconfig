@@ -57,7 +57,8 @@ spring:
             contactPoints: localhost
             protocolVersion: V4
             compression: LZ4
-            keyspaceName: alphaserver
+
+keyspaceName: alphaserver
             repositories:
                 enabled: false
     mail:
@@ -116,3 +117,4 @@ alphaserver:
   eurekaservice: 35.161.61.21
   target:
     "localhost": localhost
+    "35.161.61.21": 35.161.61.21
