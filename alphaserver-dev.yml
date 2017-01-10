@@ -117,4 +117,4 @@ alphaserver:
   eurekaservice: 35.161.61.21
   target:
     "localhost": localhost
-    "35.161.61.21": 35.161.61.21
+    "35-161-61-21": 35.161.61.21
