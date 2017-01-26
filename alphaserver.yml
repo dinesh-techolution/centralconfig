@@ -101,4 +101,4 @@ jhipster:
 server.port: 8989
 alphaserver:
   admins:
-    -'din reddy'
+    - 'din reddy'
