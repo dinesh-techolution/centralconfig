@@ -102,3 +102,8 @@ server.port: 8989
 alphaserver:
   admins:
     - 'din reddy'
+  mails:
+    - 'karthik@infralabs.io'
+    - 'arun@infralabs.io'
+    - 'roger@infralabs.io'
+    - 'dinesh@infralabs.io'
