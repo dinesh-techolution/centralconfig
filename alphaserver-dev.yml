@@ -138,6 +138,6 @@ alphaserver:
   target:
     "localhost": localhost
   admins:
-    - 'din reddy'
+    - 'Din Reddy'
 #    "172-31-47-237": 35.161.61.21
  
