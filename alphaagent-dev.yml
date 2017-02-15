@@ -73,3 +73,5 @@ jhipster:
             enabled: false
             # edit spring.metrics.export.delay-millis to set report frequency
 alphaagent.monitor.dir: C:\monitoring\logs\output.json
+agent.export.dir: D:\monitor\output
+agent.scripts.dir: D:\scripts\
